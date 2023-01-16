@@ -8,6 +8,6 @@ body{
 
 @layer components {
     .buttonBase {
-        @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm
+        @apply bg-[#053427] text-white px-3 py-2 rounded-md text-sm
     }
 }

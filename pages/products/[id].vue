@@ -6,9 +6,7 @@
 
 <script setup>
 const { id } = useRoute().params
-definePageMeta({
-    layout: "product"
-})
+
 const {data: products} = await useFetch(`https://fakestoreapi.com/products/${id}`)
 
 if(!products.value){
