@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply bg-gray-50
+body {
+  @apply bg-gray-50;
 }
 
 @layer components {
-    .buttonBase {
-        @apply bg-[#053427] text-white px-3 py-2 rounded-md text-sm
-    }
+  .buttonBase {
+    @apply bg-[#053427] text-white px-3 py-2 rounded-md text-sm;
+  }
 }
